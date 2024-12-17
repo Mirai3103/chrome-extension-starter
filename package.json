@@ -1,0 +1,18 @@
+{
+  "name": "chrome-extension-template",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build.js",
+    "watch": "node build.js --watch"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.287",
+    "esbuild": "^0.19.11",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "chrome-extension-utils": "^1.2.1",
+    "chrome-types": "^0.1.325",
+    "webext-bridge": "^6.0.1"
+  }
+}
